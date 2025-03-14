@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>Website với Iframe</title>
 </head>
 <body>
     <h1>Website</h1>
+    
+    <!-- Menu -->
     <nav>
-        <ul>
-            <li><a href="tintuc/kh.html">Khoa Học</a></li>
-            <li><a href="tintuc/xh.html">Xã hội</a></li>
-            <li><a href="giaitri/game/online.html">Game Online</a></li>
-            <li><a href="giaitri/game/offline.html">Game Offline</a></li>
-            <li><a href="giaitri/nhac/noi.html">Nhạc Nội</a></li>
-            <li><a href="giaitri/nhac/ngoai.html">Nhạc Ngoại</a></li>
-        </ul>
+        <table border="1" width="100%">
+            <tr>
+                <td><a href="tintuc/kh.html" target="contentFrame">Khoa Học</a></td>
+                <td><a href="giaitri/game/online.html" target="contentFrame">Game Online</a></td>
+                <td><a href="giaitri/game/offline.html" target="contentFrame">Game Offline</a></td>
+                <td><a href="giaitri/nhac/noi.html" target="contentFrame">Nhạc Nội</a></td>
+                <td><a href="giaitri/nhac/ngoai.html" target="contentFrame">Nhạc Ngoại</a></td>
+            </tr>
+        </table>        
     </nav>    
+
+    <!-- Khu vực hiển thị nội dung -->
+    <iframe name="" src="" width="100%" height="500px" style="border: 1px solid #ccc;"></iframe>
 </body>
 </html>
